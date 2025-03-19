@@ -1,0 +1,14 @@
+{
+  "name": "pokemon-tcg-trade-platform-tools",
+  "version": "1.0.0",
+  "description": "Tools for the Pokemon TCG Trade Platform",
+  "private": true,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^8.1.0",
+    "js-yaml": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 

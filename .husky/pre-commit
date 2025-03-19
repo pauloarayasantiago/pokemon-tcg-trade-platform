@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run documentation validation
+npm run validate-docs || exit 1
+
+# Run file reference checks
+npm run check-doc-references || exit 1
+
+# Validate Mermaid diagrams
+npm run validate-mermaid || exit 1
+
+# Validate frontmatter
+npm run validate-frontmatter || exit 1

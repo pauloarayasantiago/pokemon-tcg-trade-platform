@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 210 20% 98%;
+  --foreground: 215 25% 27%;
+  
+  /* Pokemon brand colors - HSL format */
+  --pokemon-red: 0 84% 51%;
+  --pokemon-blue: 221 49% 44%;
+  --pokemon-yellow: 50 100% 51%;
+  
+  /* UI colors - HSL format */
+  --primary: 0 84% 51%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 221 49% 44%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 50 100% 51%;
+  --accent-foreground: 215 25% 27%;
+  
+  --muted: 217 19% 47%;
+  --muted-foreground: 215 16% 65%;
+  
+  --success: 160 84% 39%;
+  --warning: 35 92% 51%;
+  --danger: 0 84% 60%;
+  
+  --border: 220 13% 91%;
+  --input: 216 12% 84%;
+  --ring: 221 49% 44%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 215 25% 27%;
+  --card-muted: 210 20% 96%;
+  
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: 222 14% 8%;
+  --foreground: 210 6% 93%;
+  
+  /* UI colors - HSL format for dark mode */
+  --primary: 0 84% 51%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 221 49% 44%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 50 100% 51%;
+  --accent-foreground: 215 25% 27%;
+  
+  --muted: 217 19% 47%;
+  --muted-foreground: 215 16% 65%;
+  
+  --border: 240 4% 16%;
+  --input: 240 5% 26%;
+  --ring: 50 100% 51%;
+  
+  --card: 225 9% 13%;
+  --card-foreground: 210 6% 93%;
+  --card-muted: 225 14% 19%;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+}

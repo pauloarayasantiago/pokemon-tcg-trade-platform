@@ -1,0 +1,86 @@
+{
+  "name": "pokemontcg-trade-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "validate-docs": "node tools/validate-docs.js",
+    "check-doc-references": "node tools/check-doc-references.js",
+    "validate-mermaid": "node tools/validate-mermaid.js",
+    "validate-frontmatter": "node tools/validate-frontmatter.js",
+    "fix-frontmatter": "node tools/fix-frontmatter.js",
+    "bulk-fix-docs": "node tools/bulk-add-frontmatter.js",
+    "create-doc": "node tools/doc-template-generator.js",
+    "create-diagram": "node tools/mermaid-generator.js",
+    "generate-doc-template": "node tools/doc-template-generator.js",
+    "add-frontmatter": "node tools/add-frontmatter.js",
+    "add-mermaid": "node tools/add-mermaid.js",
+    "fix-references": "node tools/fix-file-references.js",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.6",
+    "@radix-ui/react-dropdown-menu": "^2.1.6",
+    "@radix-ui/react-icons": "^1.3.2",
+    "@radix-ui/react-progress": "^1.1.2",
+    "@radix-ui/react-scroll-area": "^1.2.3",
+    "@radix-ui/react-select": "^2.1.6",
+    "@radix-ui/react-separator": "^1.1.2",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-tabs": "^1.1.3",
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.49.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.482.0",
+    "next": "15.2.2",
+    "next-themes": "^0.4.6",
+    "pokemon-tcg-sdk-typescript": "^1.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "shadcn-ui": "^0.9.5",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "glob": "^10.3.10",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20",
+    "@types/puppeteer": "^5.4.7",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "commander": "^13.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.2",
+    "gray-matter": "^4.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.6.1",
+    "puppeteer": "^24.4.0",
+    "tailwindcss": "^3.3.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5",
+    "husky": "^8.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ]
+  },
+  "overrides": {
+    "axios": "^1.6.0",
+    "follow-redirects": "^1.15.6"
+  }
+}
