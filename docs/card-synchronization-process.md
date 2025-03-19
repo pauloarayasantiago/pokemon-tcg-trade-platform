@@ -685,7 +685,7 @@ npm run sync:validate
 ## Related Documentation
 
 <related_docs>
-- [Enhanced Database Documentation](docs/enhanced-database-documentation.md)
-- [Pokemon TCG API TypeScript SDK](docs/pokemontcg.io-typescript-sdk.md)
-- [Sync Progress](docs/sync-progress.md)
+- [Enhanced Database Documentation](enhanced-database-documentation.md)
+- [Pokemon TCG API TypeScript SDK](pokemontcg.io-typescript-sdk.md)
+- [Sync Progress](sync-progress.md)
 </related_docs>

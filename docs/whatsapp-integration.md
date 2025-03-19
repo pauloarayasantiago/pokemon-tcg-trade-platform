@@ -794,10 +794,10 @@ gantt
 ## Related Documentation
 
 <related_docs>
-- [User Trading Flow](docs/user-trading-flow.md): End-to-end trading process
-- [API Reference](docs/api-reference.md): API endpoints for WhatsApp integration
-- [Multilingual Support](docs/multilingual-support.md): Language implementation details
-- [Analytics System](docs/analytics-system.md): Complete analytics documentation
+- [User Trading Flow](user-trading-flow.md): End-to-end trading process
+- [API Reference](api-reference.md): API endpoints for WhatsApp integration
+- [Multilingual Support](multilingual-support.md): Language implementation details
+- [Analytics System](analytics-system.md): Complete analytics documentation
 </related_docs>
 
 ## API Endpoints

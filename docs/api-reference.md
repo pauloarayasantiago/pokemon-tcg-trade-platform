@@ -750,7 +750,7 @@ When introducing breaking changes, a new version is created while maintaining ba
 ## Related Documentation
 
 <related_docs>
-- [Enhanced Database Documentation](docs/enhanced-database-documentation.md)
-- [Card Synchronization Process](docs/card-synchronization-process.md)
-- [Frontend Integration Guide](docs/frontend-integration.md)
+- [Enhanced Database Documentation](enhanced-database-documentation.md)
+- [Card Synchronization Process](card-synchronization-process.md)
+- [Frontend Integration Guide](frontend-integration.md)
 </related_docs>

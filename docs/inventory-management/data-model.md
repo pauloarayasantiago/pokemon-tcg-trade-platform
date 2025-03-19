@@ -470,7 +470,7 @@ As the inventory grows:
 ## Related Documentation
 
 <related_docs>
-- [Enhanced Database Documentation](../enhanced-database-documentation.md): Complete database schema
+- [Enhanced Database Documentation](enhanced-database-documentation.md): Complete database schema
 - [Inventory Management Overview](overview.md): System architecture
 - [Inventory API Reference](api-reference.md): API endpoints
 - [Inventory Analytics](analytics.md): Reporting and metrics

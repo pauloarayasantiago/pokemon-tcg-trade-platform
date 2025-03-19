@@ -766,8 +766,8 @@ export async function createInventoryItem(
 ## Related Documentation
 
 <related_docs>
-- [Inventory Management Overview](docs/inventory-management/overview.md): System architecture
-- [Inventory Data Model](docs/inventory-management/data-model.md): Database schema
-- [API Reference](docs/api-reference.md): Complete API documentation
-- [Authentication](docs/authentication.md): Authentication system details
+- [Inventory Management Overview](inventory-management/overview.md): System architecture
+- [Inventory Data Model](inventory-management/data-model.md): Database schema
+- [API Reference](api-reference.md): Complete API documentation
+- [Authentication](authentication.md): Authentication system details
 </related_docs>

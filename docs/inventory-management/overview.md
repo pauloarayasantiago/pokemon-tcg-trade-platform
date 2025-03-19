@@ -107,8 +107,8 @@ The inventory system integrates with:
 ## Related Documentation
 
 <related_docs>
-- [Inventory Data Model](docs/inventory-management/data-model.md): Detailed database schema
-- [Inventory User Interface](docs/inventory-management/user-interface.md): UI components and interactions
-- [Inventory API Reference](docs/inventory-management/api-reference.md): API endpoints for inventory management
-- [Inventory Analytics](docs/inventory-management/analytics.md): Reporting and metrics
+- [Inventory Data Model](inventory-management/data-model.md): Detailed database schema
+- [Inventory User Interface](inventory-management/user-interface.md): UI components and interactions
+- [Inventory API Reference](inventory-management/api-reference.md): API endpoints for inventory management
+- [Inventory Analytics](inventory-management/analytics.md): Reporting and metrics
 </related_docs>

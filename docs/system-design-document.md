@@ -501,7 +501,7 @@ flowchart TD
 ## Related Documentation
 
 <related_docs>
-- [Inventory Data Model](./inventory-management/data-model.md): Database schema and relationships
-- [API Reference](./api-reference.md): API endpoints and integration details
-- [User Trading Flow](./user-trading-flow.md): User interaction flows
+- [Inventory Data Model](inventory-management\data-model.md): Database schema and relationships
+- [API Reference](api-reference.md): API endpoints and integration details
+- [User Trading Flow](user-trading-flow.md): User interaction flows
 </related_docs>

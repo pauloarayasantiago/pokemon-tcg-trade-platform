@@ -1,0 +1,31 @@
+# Ignore test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+
+# Ignore example files
+**/*.example.*
+**/examples/**
+
+# Ignore documentation
+**/docs/**
+
+# Ignore configuration files
+**/*.config.*
+**/config/**
+
+# Ignore package files
+**/package.json
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+
+# Ignore TypeScript declaration files
+**/*.d.ts
+
+# Ignore build output
+**/dist/**
+**/build/**
+**/.next/**
+**/out/** 

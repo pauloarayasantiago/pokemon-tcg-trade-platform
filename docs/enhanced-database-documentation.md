@@ -418,7 +418,7 @@ Regular maintenance tasks:
 ## Related Documentation
 
 <related_docs>
-- [System Design Document](docs/system-design-document.md): Overall system architecture
-- [Supabase API Architecture](docs/supabase-api-architecture.md): Integration with Supabase
-- [Sync Progress](docs/sync-progress.md): Current synchronization status
+- [System Design Document](system-design-document.md): Overall system architecture
+- [Supabase API Architecture](supabase-api-architecture.md): Integration with Supabase
+- [Sync Progress](sync-progress.md): Current synchronization status
 </related_docs>

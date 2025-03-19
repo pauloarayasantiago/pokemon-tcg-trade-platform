@@ -836,7 +836,7 @@ Components use these theme values via Tailwind CSS classes or CSS variables.
 ## Related Documentation
 
 <related_docs>
-- [API Reference](./api-reference.md): API endpoints used by components
-- [Inventory Data Model](./inventory-management/data-model.md): Database schema referenced by components
-- [Frontend Architecture](./frontend-architecture.md): Overall frontend architecture
+- [API Reference](api-reference.md): API endpoints used by components
+- [Inventory Data Model](inventory-management\data-model.md): Database schema referenced by components
+- [Frontend Architecture](frontend-architecture.md): Overall frontend architecture
 </related_docs>

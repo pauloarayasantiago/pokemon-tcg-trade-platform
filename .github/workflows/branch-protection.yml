@@ -1,0 +1,38 @@
+name: Branch Protection
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run documentation validation
+        run: |
+          npm run validate-docs
+          npm run check-doc-references
+          npm run validate-mermaid
+          npm run validate-frontmatter
+          
+      - name: Run tests
+        run: npm test
+        
+      - name: Check for sensitive data
+        uses: gitleaks/gitleaks-action@v2
+        with:
+          path: .
+          config-path: .gitleaksignore 

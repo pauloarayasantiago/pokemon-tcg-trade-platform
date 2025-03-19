@@ -20,7 +20,8 @@
     "add-frontmatter": "node tools/add-frontmatter.js",
     "add-mermaid": "node tools/add-mermaid.js",
     "fix-references": "node tools/fix-file-references.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "fix-file-references": "node tools/fix-file-references.js"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.6",

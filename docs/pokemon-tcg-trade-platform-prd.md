@@ -551,7 +551,7 @@ graph TD
 ## Related Documentation
 
 <related_docs>
-- [System Design Document](./system-design-document.md): Technical architecture and implementation details
-- [API Reference](./api-reference.md): API endpoints and integration specifications
-- [User Trading Flow](./user-trading-flow.md): User interaction flows and processes
+- [System Design Document](system-design-document.md): Technical architecture and implementation details
+- [API Reference](api-reference.md): API endpoints and integration specifications
+- [User Trading Flow](user-trading-flow.md): User interaction flows and processes
 </related_docs> 

@@ -604,8 +604,8 @@ async function generateTradingMetrics(dateRange) {
 ## Related Documentation
 
 <related_docs>
-- [Enhanced Database Documentation](docs/enhanced-database-documentation.md): Database schema for trading system
-- [API Reference](docs/api-reference.md): API endpoints for trading functionality
-- [WhatsApp Integration](docs/whatsapp-integration.md): Detailed WhatsApp integration specifications
-- [Delivery System](docs/delivery-system.md): Complete delivery network documentation
+- [Enhanced Database Documentation](enhanced-database-documentation.md): Database schema for trading system
+- [API Reference](api-reference.md): API endpoints for trading functionality
+- [WhatsApp Integration](whatsapp-integration.md): Detailed WhatsApp integration specifications
+- [Delivery System](delivery-system.md): Complete delivery network documentation
 </related_docs>

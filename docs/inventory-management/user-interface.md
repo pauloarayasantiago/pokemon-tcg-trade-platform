@@ -444,8 +444,8 @@ sequenceDiagram
 ## Related Documentation
 
 <related_docs>
-- [Inventory Management Overview](docs/inventory-management/overview.md): System architecture
-- [Inventory Data Model](docs/inventory-management/data-model.md): Database schema
-- [Component Catalog](docs/component-catalog.md): Reusable UI components
-- [Accessibility Guidelines](docs/accessibility-guidelines.md): Platform-wide accessibility standards
+- [Inventory Management Overview](inventory-management/overview.md): System architecture
+- [Inventory Data Model](inventory-management/data-model.md): Database schema
+- [Component Catalog](component-catalog.md): Reusable UI components
+- [Accessibility Guidelines](accessibility-guidelines.md): Platform-wide accessibility standards
 </related_docs>
